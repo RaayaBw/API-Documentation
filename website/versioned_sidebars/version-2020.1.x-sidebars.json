@@ -1,0 +1,154 @@
+{
+  "version-2020.1.x-docs": {
+    "The Basics": [
+      "version-2020.1.x-getting-started",
+      "version-2020.1.x-doc1",
+      "version-2020.1.x-intro-react-native-components",
+      "version-2020.1.x-intro-react",
+      "version-2020.1.x-handling-text-input",
+      "version-2020.1.x-using-a-scrollview",
+      "version-2020.1.x-using-a-listview",
+      "version-2020.1.x-troubleshooting",
+      "version-2020.1.x-platform-specific-code",
+      "version-2020.1.x-more-resources"
+    ],
+    "Environment setup": [
+      "version-2020.1.x-environment-setup",
+      "version-2020.1.x-integration-with-existing-apps",
+      "version-2020.1.x-building-for-apple-tv",
+      "version-2020.1.x-out-of-tree-platforms"
+    ],
+    "Workflow": [
+      "version-2020.1.x-running-on-device",
+      "version-2020.1.x-fast-refresh",
+      "version-2020.1.x-debugging",
+      "version-2020.1.x-typescript",
+      "version-2020.1.x-upgrading"
+    ],
+    "Design": [
+      "version-2020.1.x-style",
+      "version-2020.1.x-height-and-width",
+      "version-2020.1.x-flexbox",
+      "version-2020.1.x-images",
+      "version-2020.1.x-colors"
+    ],
+    "Interaction": [
+      "version-2020.1.x-handling-touches",
+      "version-2020.1.x-navigation",
+      "version-2020.1.x-animations",
+      "version-2020.1.x-gesture-responder-system"
+    ],
+    "Inclusion": [
+      "version-2020.1.x-accessibility"
+    ],
+    "Performance": [
+      "version-2020.1.x-performance",
+      "version-2020.1.x-optimizing-flatlist-configuration"
+    ],
+    "JavaScript Runtime": [
+      "version-2020.1.x-javascript-environment",
+      "version-2020.1.x-timers",
+      "version-2020.1.x-hermes"
+    ],
+    "Connectivity": [
+      "version-2020.1.x-network"
+    ],
+    "Native Components and Modules": [
+      "version-2020.1.x-native-modules-setup",
+      "version-2020.1.x-direct-manipulation"
+    ],
+    "Guides (iOS)": [
+      "version-2020.1.x-native-modules-ios",
+      "version-2020.1.x-native-components-ios",
+      "version-2020.1.x-linking-libraries-ios",
+      "version-2020.1.x-running-on-simulator-ios",
+      "version-2020.1.x-communication-ios",
+      "version-2020.1.x-app-extensions"
+    ],
+    "Guides (Android)": [
+      "version-2020.1.x-native-modules-android",
+      "version-2020.1.x-native-components-android",
+      "version-2020.1.x-headless-js-android",
+      "version-2020.1.x-signed-apk-android",
+      "version-2020.1.x-removing-default-permissions"
+    ]
+  },
+  "version-2020.1.x-api": {
+    "Components": [
+      "version-2020.1.x-components-and-apis",
+      "version-2020.1.x-activityindicator",
+      "version-2020.1.x-button",
+      "version-2020.1.x-datepickerios",
+      "version-2020.1.x-drawerlayoutandroid",
+      "version-2020.1.x-flatlist",
+      "version-2020.1.x-image",
+      "version-2020.1.x-imagebackground",
+      "version-2020.1.x-inputaccessoryview",
+      "version-2020.1.x-keyboardavoidingview",
+      "version-2020.1.x-maskedviewios",
+      "version-2020.1.x-modal",
+      "version-2020.1.x-picker",
+      "version-2020.1.x-pickerios",
+      "version-2020.1.x-progressbarandroid",
+      "version-2020.1.x-progressviewios",
+      "version-2020.1.x-refreshcontrol",
+      "version-2020.1.x-safeareaview",
+      "version-2020.1.x-scrollview",
+      "version-2020.1.x-sectionlist",
+      "version-2020.1.x-segmentedcontrolios",
+      "version-2020.1.x-slider",
+      "version-2020.1.x-statusbar",
+      "version-2020.1.x-stylesheet",
+      "version-2020.1.x-switch",
+      "version-2020.1.x-tabbarios",
+      "version-2020.1.x-tabbarios-item",
+      "version-2020.1.x-text",
+      "version-2020.1.x-textinput",
+      "version-2020.1.x-touchablehighlight",
+      "version-2020.1.x-touchablenativefeedback",
+      "version-2020.1.x-touchableopacity",
+      "version-2020.1.x-touchablewithoutfeedback",
+      "version-2020.1.x-view",
+      "version-2020.1.x-viewpagerandroid",
+      "version-2020.1.x-virtualizedlist"
+    ],
+    "APIs": [
+      "version-2020.1.x-accessibilityinfo",
+      "version-2020.1.x-actionsheetios",
+      "version-2020.1.x-alert",
+      "version-2020.1.x-alertios",
+      "version-2020.1.x-animated",
+      "version-2020.1.x-appregistry",
+      "version-2020.1.x-appstate",
+      "version-2020.1.x-asyncstorage",
+      "version-2020.1.x-backhandler",
+      "version-2020.1.x-clipboard",
+      "version-2020.1.x-datepickerandroid",
+      "version-2020.1.x-dimensions",
+      "version-2020.1.x-easing",
+      "version-2020.1.x-imageeditor",
+      "version-2020.1.x-imagepickerios",
+      "version-2020.1.x-image-style-props",
+      "version-2020.1.x-interactionmanager",
+      "version-2020.1.x-keyboard",
+      "version-2020.1.x-layout-props",
+      "version-2020.1.x-layoutanimation",
+      "version-2020.1.x-linking",
+      "version-2020.1.x-panresponder",
+      "version-2020.1.x-permissionsandroid",
+      "version-2020.1.x-pixelratio",
+      "version-2020.1.x-pushnotificationios",
+      "version-2020.1.x-settings",
+      "version-2020.1.x-shadow-props",
+      "version-2020.1.x-share",
+      "version-2020.1.x-statusbarios",
+      "version-2020.1.x-systrace",
+      "version-2020.1.x-text-style-props",
+      "version-2020.1.x-timepickerandroid",
+      "version-2020.1.x-toastandroid",
+      "version-2020.1.x-transforms",
+      "version-2020.1.x-vibration",
+      "version-2020.1.x-view-style-props"
+    ]
+  }
+}

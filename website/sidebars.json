@@ -1,0 +1,50 @@
+{
+  "docs": {	
+  "Getting Started": [
+		"Getting-Started/License-and-Authentication",
+		"Getting-Started/create-plugin-python",
+		"Getting-Started/create-plugin-cpp",
+		"Getting-Started/create-plugin-csharp",
+		"Getting-Started/Development",
+		"Getting-Started/Deployment"
+  ],
+	"Asset Management": [
+		"Asset-Management/Asset-Library",
+		"Asset-Management/Colors",
+		"Asset-Management/Material",
+		"Asset-Management/Avatars",
+		"Asset-Management/Garments"
+	],
+	"Techpack": [
+		"Techpack/Create-a-techpack",
+		"Techpack/Techpack-output",
+		"Techpack/Point-of-Measurements",
+		"Techpack/Bill-of-Material"
+	],
+	"Outputs Export": [
+		"Outputs-Export/Outputs",
+		"Outputs-Export/Connect-to-own-render-farm"
+	],
+	"Garment Creation": [
+		"Garment-Creation/Create-Shape",
+		"Garment-Creation/Create-Edge",
+		"Garment-Creation/Arrange-Shape",
+		"Garment-Creation/Stitch-Shapes",
+		"Garment-Creation/Assign-Material",
+		"Garment-Creation/Select-Avatar",
+		"Garment-Creation/Dress-a-Garment"
+], 
+    "Costing": [
+		"Costing/Get-surface-area-material",
+		"Costing/Get-length-material",
+		"Costing/Get-bounding-box-material",
+		"Costing/Get-Allowance"
+],
+	"Terms of Use": [
+	"Terms-of-Use"
+],
+	"Change log": [
+	"Change-log"
+	]
+  }
+}
