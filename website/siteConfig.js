@@ -23,10 +23,10 @@ const users = [
 const siteConfig = {
   title: 'Browzwear API',
   tagline: 'Browzwear API documentation',
-  url: 'https://browzwear.github.io', // Replace USERNAME with your GitHub username.
-  baseUrl: '/vs-api-documentation/', // The name of your GitHub project.
-  projectName: 'vs-api-documentation',
-  organizationName: 'browzwear',
+  url: 'https://raayaBw.github.io', // Replace USERNAME with your GitHub username.
+  baseUrl: '/API-Documentation/', // The name of your GitHub project.
+  projectName: 'API-Documentation',
+  organizationName: 'raayaBw',
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
     {search: true},
