@@ -1,0 +1,245 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Creating Python plugin · Browzwear API</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="## Basic plugin"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="Creating Python plugin · Browzwear API"/><meta property="og:type" content="website"/><meta property="og:url" content="https://raayaBw.github.io/API-Documentation/"/><meta property="og:description" content="## Basic plugin"/><meta property="og:image" content="https://raayaBw.github.io/API-Documentation/img/undraw_online.svg"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://raayaBw.github.io/API-Documentation/img/undraw_tweetstorm.svg"/><link rel="shortcut icon" href="/API-Documentation/img/header_logo.png"/><link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/solarized-dark.min.css"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script src="/API-Documentation/js/scrollSpy.js"></script><link rel="stylesheet" href="/API-Documentation/css/prism.css"/><link rel="stylesheet" href="/API-Documentation/css/main.css"/><script src="/API-Documentation/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/API-Documentation/"><img class="logo" src="/API-Documentation/img/header_logo.png" alt="Browzwear API"/><h2 class="headerTitleWithLogo">Browzwear API</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class="navSearchWrapper reactNavSearchWrapper"><input type="text" id="search_input_react" placeholder="Search" title="Search"/></li><li class="siteNavGroupActive"><a href="/API-Documentation/docs/Getting-Started/License-and-Authentication" target="_self">Docs</a></li><li class=""><a target="_blank"></a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><div class="hamburger-menu"><div class="line1"></div><div class="line2"></div><div class="line3"></div></div></div><h2><i>›</i><span>Getting Started</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle">Getting Started</h3><ul class=""><li class="navListItem"><a class="navItem" href="/API-Documentation/docs/Getting-Started/License-and-Authentication">License and Authentication</a></li><li class="navListItem navListItemActive"><a class="navItem" href="/API-Documentation/docs/Getting-Started/create-plugin-python">Creating Python plugin</a></li><li class="navListItem"><a class="navItem" href="/API-Documentation/docs/Getting-Started/create-plugin-cpp">Creating C++ plugin</a></li><li class="navListItem"><a class="navItem" href="/API-Documentation/docs/Getting-Started/create-plugin-csharp">Creating C# plugin</a></li><li class="navListItem"><a class="navItem" href="/API-Documentation/docs/Getting-Started/Development">Development</a></li><li class="navListItem"><a class="navItem" href="/API-Documentation/docs/Getting-Started/Deployment">Deployment</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Asset Management</h3><ul class=""><li class="navListItem"><a class="navItem" href="/API-Documentation/docs/Asset-Management/Asset-Library">Asset Library</a></li><li class="navListItem"><a class="navItem" href="/API-Documentation/docs/Asset-Management/Colors">Colors</a></li><li class="navListItem"><a class="navItem" href="/API-Documentation/docs/Asset-Management/Material">Material</a></li><li class="navListItem"><a class="navItem" href="/API-Documentation/docs/Asset-Management/Avatars">Avatars</a></li><li class="navListItem"><a class="navItem" href="/API-Documentation/docs/Asset-Management/Garments">Garments</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Techpack</h3><ul class=""><li class="navListItem"><a class="navItem" href="/API-Documentation/docs/Techpack/Create-a-techpack">Create a Techpack</a></li><li class="navListItem"><a class="navItem" href="/API-Documentation/docs/Techpack/Techpack-output">Techpack output - JSON</a></li><li class="navListItem"><a class="navItem" href="/API-Documentation/docs/Techpack/Point-of-Measurements">Point of Measurements</a></li><li class="navListItem"><a class="navItem" href="/API-Documentation/docs/Techpack/Bill-of-Material">Bill of Material</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Outputs Export</h3><ul class=""><li class="navListItem"><a class="navItem" href="/API-Documentation/docs/Outputs-Export/Outputs">Outputs</a></li><li class="navListItem"><a class="navItem" href="/API-Documentation/docs/Outputs-Export/Connect-to-own-render-farm">Connect to own render farm</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Garment Creation</h3><ul class=""><li class="navListItem"><a class="navItem" href="/API-Documentation/docs/Garment-Creation/Create-Shape">Create Shape</a></li><li class="navListItem"><a class="navItem" href="/API-Documentation/docs/Garment-Creation/Create-Edge">Create Edge</a></li><li class="navListItem"><a class="navItem" href="/API-Documentation/docs/Garment-Creation/Arrange-Shape">Arrange Shape</a></li><li class="navListItem"><a class="navItem" href="/API-Documentation/docs/Garment-Creation/Stitch-Shapes">Stitch Shapes</a></li><li class="navListItem"><a class="navItem" href="/API-Documentation/docs/Garment-Creation/Assign-Material">Assign Material</a></li><li class="navListItem"><a class="navItem" href="/API-Documentation/docs/Garment-Creation/Select-Avatar">Select Avatar</a></li><li class="navListItem"><a class="navItem" href="/API-Documentation/docs/Garment-Creation/Dress-a-Garment">Dress a garment</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Costing</h3><ul class=""><li class="navListItem"><a class="navItem" href="/API-Documentation/docs/Costing/Get-surface-area-material">Get surface area material</a></li><li class="navListItem"><a class="navItem" href="/API-Documentation/docs/Costing/Get-length-material">Get length material</a></li><li class="navListItem"><a class="navItem" href="/API-Documentation/docs/Costing/Get-bounding-box-material">Get bounding box material</a></li><li class="navListItem"><a class="navItem" href="/API-Documentation/docs/Costing/Get-Allowance">Get Allowance</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Terms of Use</h3><ul class=""><li class="navListItem"><a class="navItem" href="/API-Documentation/docs/Terms-of-Use">Terms of Use</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Change log</h3><ul class=""><li class="navListItem"><a class="navItem" href="/API-Documentation/docs/Change-log">Change log</a></li></ul></div></div></section></div><script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              var headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                var el = event.target;
+                while(el !== headings){
+                  if (el.tagName === 'A') {
+                    document.body.classList.remove('tocActive');
+                    break;
+                  } else{
+                    el = el.parentNode;
+                  }
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer docsContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1 id="__docusaurus" class="postHeaderTitle">Creating Python plugin</h1></header><article><div><span><h2><a class="anchor" aria-hidden="true" id="basic-plugin"></a><a href="#basic-plugin" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Basic plugin</h2>
+<p>Browzwear supports writing a plugin in Python 3.6+. Follow these steps to create a basic plugin:</p>
+<ol>
+<li>Install VStitcher.</li>
+<li>Go to VStitcher's plugins folder: <br/></li>
+</ol>
+<pre><code class="hljs css language-cpp">   Windows:  %localappdata%\Browzwear\VStitcher\plugins
+   Mac:      ~/Library/Application Support/Browzwear/VStitcher/Plugins
+</code></pre>
+<p>Note: If the Plugins folder doesn't exist, create it.</p>
+<ol start="3">
+<li>Create a new folder for your plugin.</li>
+<li>Create another folder to contain the python plugin files - this will be the plugin package.</li>
+<li>Create two new files within the plugin package folder: <br/></li>
+</ol>
+<pre><code class="hljs css language-cpp">  __init__.py
+  sample.py
+</code></pre>
+<ol start="5">
+<li>Using your favorite Python editor, edit the files as follows: <br/></li>
+</ol>
+<pre><code class="hljs css language-python">  <span class="hljs-comment"># __init__.py file</span>
+
+  <span class="hljs-keyword">from</span> sample <span class="hljs-keyword">import</span> *
+</code></pre>
+<pre><code class="hljs css language-python">  <span class="hljs-comment"># sample.py file</span>
+
+  <span class="hljs-comment"># import Browzwear API library</span>
+  <span class="hljs-keyword">import</span> BwApi
+
+  <span class="hljs-comment"># implement initialization function</span>
+  <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">BwApiPluginInit</span><span class="hljs-params">()</span>:</span>
+    <span class="hljs-comment"># return 1 for successful initialization</span>
+    <span class="hljs-keyword">return</span> <span class="hljs-number">1</span>
+</code></pre>
+<ol start="6">
+<li>Create a file named plugin.json in the plugin folder. refer to &quot;..\BWPlugin\schema\plugin_manifest.json&quot; for more information.</br>
+Example of plugin.json file:</li>
+</ol>
+<pre><code class="hljs css language-json">    <span class="token punctuation">{</span>
+        <span class="token property">"identifier"</span><span class="token operator">:</span> <span class="token punctuation">{</span>Your identifier<span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token property">"name"</span><span class="token operator">:</span> <span class="token punctuation">{</span>Your plugin name<span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token property">"type"</span><span class="token operator">:</span> <span class="token string">"python"</span><span class="token punctuation">,</span>
+        <span class="token property">"main"</span><span class="token operator">:</span> <span class="token punctuation">{</span>Your plugin path<span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span>
+</code></pre>
+<p>Note:'type' should always be python if you using python to create your plugin.</p>
+<p>For this example, the file structure should look like this</p>
+<pre><code class="hljs">SamplePlugin
+│   plugin.json    
+└───{Python package folder name}
+    <span class="hljs-string">|   __init__.py</span>
+    <span class="hljs-string">|   sample.py</span>
+</code></pre>
+<p>That's it! You just created your first plugin (which doesn't do anything yet). Go to 'API Usage' on the main page to extend your plugin.</p>
+<h2><a class="anchor" aria-hidden="true" id="setting-up-eclipse-for-python-development-and-debugging"></a><a href="#setting-up-eclipse-for-python-development-and-debugging" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Setting up Eclipse for Python Development and Debugging</h2>
+<p>Get started with local development and debugging with Eclipse and the PyDev plugins. This configuration allows you to run your plugin in a debug mode and use Eclipse’s Debug perspective to set breakpoints and step through your code.</p>
+<h3><a class="anchor" aria-hidden="true" id="prerequisites"></a><a href="#prerequisites" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Prerequisites</h3>
+<p>Install Python 3.6 if you do not already have it installed. </br>
+Install Eclipse.</p>
+<h3><a class="anchor" aria-hidden="true" id="installing-pydev"></a><a href="#installing-pydev" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Installing PyDev</h3>
+<p>After you install Eclipse, you should install the PyDev plugin that allows you to use Eclipse as a Python IDE.</p>
+<ol>
+<li>In Eclipse, click <strong>Help &gt; Eclipse Marketplace.</strong></li>
+<li>In the <strong>Find</strong> field, specify &quot;PyDev&quot;.<br/>
+<img src="../assets/eclipse-marketplace-pydev.png" height="400"/></li>
+<li>Click <strong>Install</strong> and complete the installation wizard.</li>
+<li>Restart Eclipse when prompted.</li>
+</ol>
+<h3><a class="anchor" aria-hidden="true" id="configuring-your-project"></a><a href="#configuring-your-project" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Configuring your project</h3>
+<ol>
+<li>Create a new project: Click <strong>File &gt; New &gt; Project.</strong></li>
+<li>On the Select a wizard page, select <strong>PyDev Project.</strong></li>
+<li>On the PyDev Project page, name the project. Then, let Eclipse configure the default interpreter by clicking <strong>Please configure an interpreter before proceeding.</strong><br/>
+If Eclipse did not find a Python 3.6 interpreter, click the <strong>Click here to configure an interpreter not listed</strong> link to configure the interpreter.</li>
+<li>click <strong>Finish</strong> to start with a blank project.</li>
+</ol>
+<h3><a class="anchor" aria-hidden="true" id="importing-libraries-for-eclipse-to-recognize"></a><a href="#importing-libraries-for-eclipse-to-recognize" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Importing libraries for Eclipse to recognize</h3>
+<p>To have Eclipse recognize Browzwear Python library (BwApi):</p>
+<ol>
+<li>Edit your Eclipse project’s properties: Right-click the project and select <strong>Properties.</strong></li>
+<li>Select <strong>PyDev - PYTHONPATH</strong> in the navigation pane of the dialog.</li>
+<li>Select the <strong>External Libraries</strong> tab.</li>
+<li>Click on <strong>Add source folder</strong> and browse to Browzwear's installation location.<br/>
+<img src="../assets/ecplipse-pydev-external-libraries.png" height="400"/></li>
+<li>Click <strong>Apply and Close</strong></li>
+</ol>
+<h3><a class="anchor" aria-hidden="true" id="adding-sample-files-to-your-plugin"></a><a href="#adding-sample-files-to-your-plugin" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Adding sample files to your plugin</h3>
+<ol>
+<li>Add a new file to your project and name it <code>plugin.json</code>.</li>
+<li>Add the following content to your <code>plugin.json</code> file. (This is just an example and you must change this content for a real plugin.):</li>
+</ol>
+<pre><code class="hljs css language-json"><span class="token punctuation">{</span>
+        <span class="token property">"identifier"</span><span class="token operator">:</span> <span class="token string">"com.browzwear.sample"</span><span class="token punctuation">,</span>
+        <span class="token property">"name"</span><span class="token operator">:</span> <span class="token string">"Sample plugin"</span><span class="token punctuation">,</span>
+        <span class="token property">"api_version"</span><span class="token operator">:</span> <span class="token number">2</span><span class="token punctuation">,</span>
+        <span class="token property">"type"</span><span class="token operator">:</span> <span class="token string">"python"</span><span class="token punctuation">,</span>
+        <span class="token property">"main"</span><span class="token operator">:</span> <span class="token string">"src"</span><span class="token punctuation">,</span>
+        <span class="token property">"version"</span><span class="token operator">:</span> <span class="token string">"1.0.1"</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<ol start="3">
+<li>The actual plugin is a python package. As you can see in the example JSON, we tell Browzwear that the package name is <code>src</code>. (See <code>main</code> property.)</li>
+<li>Create an <code>src</code> folder under your Project.</li>
+<li>Within the <code>src</code> folder, add the following files:</li>
+</ol>
+<pre><code class="hljs">src
+<span class="hljs-string">|- __init__.py</span>
+<span class="hljs-string">|- sample.py</span>
+</code></pre>
+<ol start="6">
+<li>Update the <code>__init__.py</code> file with the following content:</li>
+</ol>
+<pre><code class="hljs css language-python"><span class="hljs-keyword">import</span> * <span class="hljs-keyword">from</span> sample
+</code></pre>
+<ol start="7">
+<li>Update the <code>sample.py</code> file with the following content:</li>
+</ol>
+<pre><code class="hljs css language-python"><span class="hljs-comment"># import Browzwear API library</span>
+<span class="hljs-keyword">import</span> BwApi
+
+<span class="hljs-comment"># create a callback class for receiving menu action events</span>
+<span class="hljs-comment"># this class inherits from BwApi.CallbackBase</span>
+<span class="hljs-comment"># you can find out more information at the README.md file and on the BwPluginApi.h file</span>
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">CallbackSession</span><span class="hljs-params">(BwApi.CallbackBase)</span>:</span>
+  <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">Run</span><span class="hljs-params">(self: object, garment_id: str, callback_id: int, data_string: str)</span>:</span>
+    <span class="hljs-keyword">if</span> callback_id == <span class="hljs-number">1</span>:
+      BwApi.WndMessageBox(<span class="hljs-string">'Hello World'</span>, BwApi.BW_API_MB_OK)
+
+<span class="hljs-comment"># initialize function that must be exported by the plugin</span>
+<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">BwApiPluginInit</span><span class="hljs-params">()</span> -&gt; int:</span>
+  <span class="hljs-comment"># add menu item to the plugin menu</span>
+  BwApi.MenuFunctionAdd(<span class="hljs-string">'Hello World'</span>, callbackMenu, <span class="hljs-number">1</span>)
+  <span class="hljs-keyword">return</span> <span class="hljs-number">1</span>
+
+<span class="hljs-comment"># create global instance for the menu callback class</span>
+callbackMenu = CallbackMenu()
+</code></pre>
+<h3><a class="anchor" aria-hidden="true" id="debugging-your-plugin-within-browzwear"></a><a href="#debugging-your-plugin-within-browzwear" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Debugging your plugin within Browzwear</h3>
+<ol>
+<li>Add VStitcher or Lotta as external tool in Eclipse: Click <strong>Run &gt; External Tools &gt; External Tools Configurations...&quot;</strong></li>
+<li>Add new configuration: Click the <strong>New</strong> button</li>
+<li>Under the <strong>Name</strong> write <code>Browzwear</code></li>
+<li>Under the <strong>Location</strong> field enter VStitcher / Lotta executable file</li>
+<li>Click <strong>Close</strong></li>
+<li>Go back to your <code>sample.py</code> file and add the following code to the initialize function:</li>
+</ol>
+<pre><code class="hljs css language-python"><span class="hljs-keyword">import</span> sys
+sys.path.append(&lt;path to pydevd/pysrc&gt;)
+
+<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">BwApiPluginInit</span><span class="hljs-params">()</span> -&gt; int:</span>
+  <span class="hljs-keyword">try</span>:
+    <span class="hljs-keyword">import</span> pydevd
+
+    <span class="hljs-comment"># this line will cause the debugger to stop here and you will be able</span>
+    <span class="hljs-comment"># to debug the plugin</span>
+    pydevd.settrace(<span class="hljs-string">'localhost'</span>, port=<span class="hljs-number">5678</span>)
+  <span class="hljs-keyword">except</span>:
+    <span class="hljs-keyword">pass</span>
+
+  <span class="hljs-comment"># add menu item to the plugin menu</span>
+  BwApi.MenuFunctionAdd(<span class="hljs-string">'Hello World'</span>, callbackMenu, <span class="hljs-number">1</span>)
+  <span class="hljs-keyword">return</span> <span class="hljs-number">1</span>
+</code></pre>
+<ol start="7">
+<li>Open the <strong>Debug</strong> perspective: Click <strong>Window &gt; Perspective &gt; Open Perspective &gt; Other ...</strong></li>
+<li>Select the <strong>Debug</strong> perspective.</li>
+<li>Set PyDev to listen to 5678 port: Click <strong>Pydev &gt; Start Debug Server</strong>, you should see the following line on the console - <code>Debug Server at port: 5678</code>.</li>
+<li>Launch VStitcher / Lotta from Eclipe using the configuration set at step #1:</br> Click <strong>Run &gt; External Tools &gt; Browzwear</strong>.</li>
+</ol>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/API-Documentation/docs/Getting-Started/License-and-Authentication"><span class="arrow-prev">← </span><span>License and Authentication</span></a><a class="docs-next button" href="/API-Documentation/docs/Getting-Started/create-plugin-cpp"><span>Creating C++ plugin</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#basic-plugin">Basic plugin</a></li><li><a href="#setting-up-eclipse-for-python-development-and-debugging">Setting up Eclipse for Python Development and Debugging</a><ul class="toc-headings"><li><a href="#prerequisites">Prerequisites</a></li><li><a href="#installing-pydev">Installing PyDev</a></li><li><a href="#configuring-your-project">Configuring your project</a></li><li><a href="#importing-libraries-for-eclipse-to-recognize">Importing libraries for Eclipse to recognize</a></li><li><a href="#adding-sample-files-to-your-plugin">Adding sample files to your plugin</a></li><li><a href="#debugging-your-plugin-within-browzwear">Debugging your plugin within Browzwear</a></li></ul></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><div><h5>Docs</h5><a href="/API-Documentation/docs/getting-started.html">Getting Started</a><a href="/API-Documentation/docs/tutorial.html">Tutorial</a><a href="/API-Documentation/docs/components-and-apis.html">Components and APIs</a><a href="/API-Documentation/docs/more-resources.html">More Resources</a></div><div><h5>Community</h5><a href="/API-Documentation/help.html">The React Native Community</a><a href="/API-Documentation/showcase.html">Who&#x27;s using React Native?</a><a href="http://stackoverflow.com/questions/tagged/react-native" target="_blank">Ask Questions on Stack Overflow</a><a href="https://github.com/facebook/react-native/blob/master/CONTRIBUTING.md">Contributor Guide</a><a href="https://dev.to/t/reactnative" target="_blank">DEV Community</a></div><div><h5>More Resources</h5><a href="/API-Documentation/blog/">Blog</a><a href="https://twitter.com/reactnative" target="_blank">Twitter</a><a href="https://github.com/facebook/react-native" target="_blank">GitHub</a><a href="http://reactjs.org" target="_blank">React</a></div></section><a href="https://code.facebook.com/projects/" target="_blank" class="fbOpenSource"><img src="/API-Documentation/img/oss_logo.png" alt="Facebook Open Source" width="170" height="45"/></a><section class="copyright">Copyright © 2020 Facebook Inc.</section></footer></div><script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script><script>
+                document.addEventListener('keyup', function(e) {
+                  if (e.target !== document.body) {
+                    return;
+                  }
+                  // keyCode for '/' (slash)
+                  if (e.keyCode === 191) {
+                    const search = document.getElementById('search_input_react');
+                    search && search.focus();
+                  }
+                });
+              </script><script>
+              var search = docsearch({
+                
+                apiKey: 'undefined',
+                indexName: 'undefined',
+                inputSelector: '#search_input_react'
+              });
+            </script></body></html>
